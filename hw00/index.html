@@ -10,6 +10,8 @@
 
 <title>作品集 Portfolio</title>
 <style type="text/css">
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@900&display=swap');
+
   body {
     background-color: rgb(159, 53, 58);
     color: rgb(159, 53, 58);
@@ -29,11 +31,12 @@
     border: 1px solid #f9eced;
     color: #f9eced;
     padding: 8px;
-    font-size: 18pt;
+    font-size: 16pt;
   }
 
   .twenty a {
     color:  yellow;
+    font-size:  11pt;
   }
 
   .twenty a:hover {
@@ -79,7 +82,7 @@
     text-anchor: middle;
   }
 
-    .twenty:hover {
+  .twenty:hover {
       /*
         background-color: rgba(255, 255, 0, 0.1);
       */
@@ -93,7 +96,7 @@
         box-shadow: 0 0 1px 1px #f9eced;
       
         animation-name: happy;
-        animation-duration: 0.5s;
+        animation-duration: 0.9s;
         animation-iteration-count: infinite;
     }
 
@@ -132,6 +135,14 @@
 
     img.withborder {
       border: 1px solid #f9eced;
+    }
+
+    img.pointfour:hover {
+      box-shadow: 0 0 1px 1px #f9eced;
+      
+        animation-name: happy;
+        animation-duration: 0.4s;
+        animation-iteration-count: infinite;
     }
 
 
@@ -175,11 +186,26 @@
     <div class="col twenty"><a href="../hw18/index.html">18<img src="./html.svg" width="30px"></a></div>
   </div>
 
+  <div class="row hw12">
+    <div class="col-md-12 twenty">
+      <h1>Preface</h1>
+      Prior to taking Computer Animation this semester, I had previously studied other subjects with 
+      Professor Hsieh, notably “<i>Discrete Mathematics</i>” and “<i>Computer Typography and 
+      Character Encoding</i>”. Previously while studying for those courses, I came across Mr. Hsieh’s 
+      computer graphics and animations in the courses web pages that he provided to us. Having visited 
+      those pages regularly sparked my interest in both computer graphics and computer animation, 
+      most notably on the interactive animated models he has on his webpage, as such this semester 
+      I decided to enroll for the latter. 
+      <br>
+      —方文昊
+    </div>
+  </div>
+
   <!-- ---------------------------------------------- -->
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      <img class="withborder" src="./xxx.svg" height="600"> <!-- github帳號xxx.png -->
-      <img class="withborder" src="./xxx.png" height="600"> <!-- github帳號xxx.png -->
+      <img class="withborder" src="./FangWen-Hao.svg" height="600"> <!-- github帳號xxx.png -->
+      <img class="withborder pointfour" src="./FangWen-Hao.png" height="600"> <!-- github帳號xxx.png -->
     </div>
   </div>
 
