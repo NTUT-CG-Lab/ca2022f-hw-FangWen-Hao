@@ -103,7 +103,7 @@
 
       // dont override
       window.addEventListener("load", () => {
-        update(0.45, 0, 1);
+        window.update(0.45, 0, 1);
       });
 
       /*
@@ -116,7 +116,7 @@
           x = original_x;
           y = original_y;
           scale = original_scale;
-          update(0.45, 0, 1);
+          window.update(0.45, 0, 1);
         } else{
           el.style.marginTop = `${x}px`;
         }
@@ -128,7 +128,7 @@
           x = original_x,
           y = original_y,
           scale = original_scale;
-          update(0.45, 0, 1);
+          window.update(0.45, 0, 1);
         } else {
           el.style.marginTop = `${x}px`;
         }
@@ -140,7 +140,7 @@
           x = original_x,
           y = original_y,
           scale = original_scale;
-          update(0.45, 0, 1);
+          window.update(0.45, 0, 1);
         } else {
           el.style.marginLeft = `${y}px`;
         }
@@ -152,7 +152,7 @@
           x = original_x,
           y = original_y,
           scale = original_scale;
-          update(0.45, 0, 1);
+          window.update(0.45, 0, 1);
         } else {
           el.style.marginLeft = `${y}px`;
         }
@@ -164,7 +164,7 @@
           x = original_x,
           y = original_y,
           scale = original_scale;
-          update(0.45, 0, 1);
+          window.update(0.45, 0, 1);
         } else {
           el.style.transform = `scale(${scale})`;
         }
@@ -176,7 +176,7 @@
           x = original_x,
           y = original_y,
           scale = original_scale;
-          update(0.45, 0, 1);
+          window.update(0.45, 0, 1);
         } else {
           el.style.transform = `scale(${scale})`;
         }
